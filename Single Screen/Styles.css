@@ -1,0 +1,90 @@
+@font-face{
+    font-family: telenorItalicimport;
+    src:url(telenorItalic.TTF); 
+
+}
+@font-face{
+    font-family: TelenorRegularimport;
+    src:url(TelenorRegular.TTF);
+
+}
+body{
+
+}
+.container-fluid{
+  padding: 0px;
+}
+#main-row{
+  margin:0px;
+  height: 1080px;
+  background-image: url("SingleScreenBackground.png");
+  background-repeat: no-repeat;
+
+}
+#img-col{
+  padding: 0px;
+  height: 1080px;
+}
+#specification-col{
+  padding: 0px;
+  height: 1080px;
+  width: 930px;
+}
+#img-size{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#specification-col-position{
+  margin-left: 180px;
+
+}
+.mobile-div{
+  width: 372px;
+  position: absolute;
+  top: 139px;
+  left: 159px;
+  height: 790px;
+}
+.font-size{
+  font-size: 22px;
+  font-family: TelenorRegularimport;"
+}
+.icon-size{
+  height: 50px;
+}
+
+.additionAndSocial{
+  font-size: 28px;
+  font-family: TelenorRegularimport;
+  padding: 10px 0px 0px 0px;
+}
+.deviceName{
+  margin-top: 70px;
+  font-size:55px;
+  font-family: TelenorRegularimport;"
+}
+.devicePrice{
+  font-size:55px;
+  margin-top: 30px;
+  margin-bottom: 39px;
+  font-family: telenorItalicimport;
+}
+
+.row-height{
+  height: 120px;
+}
+.row-Social{
+  height: 110px;
+  width: 550px; 
+  position: absolute;
+  top: 485px;
+  left: 35px;
+}
+.row-additional{
+  height: 110px;
+  width: 550px;
+  position: absolute;
+  top: 620px;
+  left: 35px;
+}
