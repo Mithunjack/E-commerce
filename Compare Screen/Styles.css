@@ -1,0 +1,129 @@
+@font-face{
+    font-family: telenorItalicimport;
+    src:url(telenorItalic.TTF); 
+
+}
+@font-face{
+    font-family: TelenorRegularimport;
+    src:url(TelenorRegular.TTF);
+
+}
+body{
+
+}
+.container-fluid{
+  padding: 0px;
+}
+#main-row{
+  margin:0px;
+  height: 1080px;
+  background-image: url("compareScreenBackground.png");
+  background-repeat: no-repeat;
+
+}
+#first-phone{
+  height: 1080px;
+}
+#second-phone{
+  height: 1080px;
+}
+#phone-size{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.mobile-div{
+  width: 372px;
+  position: absolute;
+  top: 139px;
+  left: 60px;
+  height: 760px;
+}
+.icon-size{
+  height: 40px;
+}
+.row-height{
+  height:70px;
+}
+.col-height{
+  height: 100%;
+  text-align: left;
+}
+.font-size-firstPhone{
+  font-size: 17px;
+  font-family: TelenorRegularimport;
+  margin-top: 6px;
+}
+.font-size-secondPhone{
+  margin-top: 6px;
+  font-size: 17px;
+  font-family: TelenorRegularimport;
+  text-align: right;"
+
+}
+.device-name-tag{
+  margin-top: 60px;
+  font-size:35px;
+  font-family: TelenorRegularimport;"
+}
+.device-price-tag{
+  font-size:45px;
+  margin-bottom: 5px;
+  font-family: telenorItalicimport;
+}
+
+.second-device-name{
+  margin-top: 60px;
+  font-size:35px;
+  font-family: TelenorRegularimport;
+  text-align: right;
+}
+.second-device-price{
+  font-size:45px;
+  margin-bottom: 5px;
+  font-family: telenorItalicimport;
+  text-align: right;
+}
+.col-adjust{
+  height: 100%;
+  padding: 13px 15px;
+}
+.specs-icon-size{
+  width:60px;
+}
+.First-socialAndAddition{
+  text-align: left;
+  font-size: 25px;
+  font-family: TelenorRegularimport;
+   padding: 15px 0px 0px 10px;
+}
+.FirstAddiPosition{
+ height: 110px;
+ position: absolute;
+ top: 590px;
+ left: 25px;
+}
+.FirstSocialPosition{
+ height: 110px;
+ position: absolute;
+ top: 710px;
+ left: 25px;
+}
+.SecondAddiPosition{
+  height: 110px;
+  position: absolute;
+  top: 590px;
+  right: 40px;
+}
+.SecondSocialPosition{
+  height: 110px;
+  position: absolute;
+  top: 710px;
+  right: 40px;
+}
+.secondSocialText{
+  text-align: right;
+  font-size: 25px;
+  font-family: TelenorRegularimport; 
+  padding: 15px 0px 0px 10px;
+}
